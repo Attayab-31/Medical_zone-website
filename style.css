@@ -1,0 +1,102 @@
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.footer{
+    margin-top: 92px;
+    width: 100%;
+    padding-top: 11%;
+    padding-bottom: 3%;
+    padding: 3%;
+    gap: 2%;
+    display: flex;
+    background-color: #7e6767;
+    height: 40vh;
+  }
+  .CONTACT p{
+    text-align: center;
+  
+  }
+  .footer div{
+    text-align: center;
+  }
+  .footer div h3{
+    font-weight: 300px;
+    margin-bottom: 30px;
+  }
+  .col-2 a{
+    display: block;
+    display: inline-flex;
+  }
+  .col-1 a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #0a0101;
+    display: inline-flex;
+  }
+  .col-3 a{
+    display: block;
+    display: inline-flexx;
+    
+  }
+  .col-2 a{
+    display: block;
+    margin-bottom: 20px;
+  }
+  :root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+  
+  .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source: var(--gradient) !important;
+    text-decoration: none;
+    transition: all .4s ease;
+    -webkit-text-fill-color: #fff !important;
+    color: #fff;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background: var(--gradient) !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important;
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+  
+  .footer{
+    text-align: center;
+    height: fit-content;
+    display:flex;
+    background-color: #222;
+    color: #fff;
+  }
+  .img-box{
+    text-align: center;
+  }
+  .section-title{
+    text-align: center;
+  }
+  .title-name-info{
+    text-align: center;
+  }
+  .title{
+    text-align: center;
+  }

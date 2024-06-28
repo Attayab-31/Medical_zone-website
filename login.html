@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEDICAL ZONE</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sign_up.css">
+  <link rel="icon" href="icon.ico">
+  <style>
+      .footer a {
+          color: white;
+      }
+
+      /* Custom class to override Bootstrap button styles */
+      .btn-visible {
+          background-color: #007bff !important;
+          color: #fff !important;
+      }
+  </style>
+   <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .login-container {
+      margin-top: 100px;
+    }
+
+    .login-form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-control {
+      border-radius: 5px;
+    }
+
+    .login-btn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="content/icons8-ambulance-50.png" width="60" height="40">MEDICAL
+            ZONE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="sign-up.html">SignUp</a>
+                </li>
+              
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" style= color: #fff !important;" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+  <div class="container">
+    <div class="row justify-content-center login-container">
+      <div class="col-md-4">
+        <form class="login-form" action="Login.php" method="post">
+          <h2 class="text-center mb-4">Login</h2>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="psw">Password:</label>
+            <input type="password" class="form-control" id="psw" name="psw" maxlength="8" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block login-btn">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer bg-dark text-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <h3>QUICK LINKS</h3>
+            <p>   <a href="#">About Medical Zone</a> </p>
+            <p>   <a href="#">APPOINTMENT</a> </p>
+                <a href="#">TERM & CONDITIONS</a>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3>CENTRE OF EXCELLENCE</h3>
+                <p>Speech Therapy And Audiology</p>
+                <p>Spine Surgery</p>
+                <p>Cardiology</p>
+                <p>ENT</p>
+                <p>Dental Science</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <h3>Address</h3>
+                <p>House No 443 Block-5 Sector C2 Green Town, Lahore, Pakistan</p>
+                <p>+923136237781</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>Stay Healthy and Informed</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></body>
+
+</html>
